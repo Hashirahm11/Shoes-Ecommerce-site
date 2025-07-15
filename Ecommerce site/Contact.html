@@ -1,0 +1,235 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+     <!-- header section -->
+    <header class="header">
+    <!-- Logo -->
+    <div class="logo">
+      <span class="primary">Pro</span><span class="secondary">Shop</span>
+    </div>
+
+    <!-- Nav Menu -->
+    <nav class="nav" id="navMenu">
+      <ul>
+        <li><a href="file.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Icons -->
+    <div class="icons">
+      <i class="fas fa-search"></i>
+       <a style="color:  #FF6B00;" href="cart.html"> 
+             <i class="fas fa-shopping-cart"></i>
+           </a>
+      <i class="fas fa-bars menu-toggle" id="menuToggle"></i>
+    </div>
+  </header>
+
+ <!-- Contact Page -->
+<section class="contact-section">
+  <div class="contact">
+    <div class="contact-content">
+      
+      <!-- Left: Google Map -->
+      <div class="l-side">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27154.154849882167!2d72.99053183253243!3d31.71947799287057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392263a731aad9ed%3A0x5b2a138195fa5e36!2sChiniot%2C%20Punjab!5e0!3m2!1sen!2s!4v1719823901610!5m2!1sen!2s"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="r-side">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button 
+             type="submit" class="form-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+       <!-- footer section -->
+          <footer >
+            <div class="footer-content">
+              <div class="footer-top-section">
+                <!-- first section -->
+                <div class="top-left">
+                  <div class="top-left-content">
+                    <h2 >
+                      <span class="primary">Pro</span><span class="secondary">Shop</span>
+                    </h2>
+                    <p>Step into a world of premium footwear designed for every lifestyle.
+                      From casual kicks to performance-ready sneakers, we’ve got your perfect fit.</p>
+                      <div class="content-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-pinterest"></i>
+                        <button>Buy Now</button>
+                      </div>
+                  </div>
+                </div>
+                <!-- section middle -->
+                <div class="top-middle">
+                  <h2>Conatct Information</h2>
+                  <div class="top-middle-content">
+                    <div class="icon-box">
+                      <div class="icon-box-left">
+                     <i class="fa-solid fa-location-dot"></i>
+                      </div>
+                      <div class="icon-box-right">
+                           <h4>Visit Anytime</h4>
+                           <p>Chiniot,Pakistan</p>
+                      </div>
+                    </div>
+                    <div class="icon-box">
+                      <div class="icon-box-left">
+                     <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <div class="icon-box-right">
+                           <h4>Email Adress</h4>
+                           <p>Hashirg22@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="icon-box">
+                      <div class="icon-box-left">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <div class="icon-box-right">
+                           <h4>Call Anytime</h4>
+                           <p>+92 322564862</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- third section -->
+                <div class="top-right">
+                   <div class="top-right-content">
+                    <h2>newsLetter</h2>
+                    <input type="text" placeholder="Enter your E-mail">
+                    <button>Submitted</button>
+                   </div>
+                </div>
+              </div>
+              <!-- bottom section -->
+              <div class="footer-bottom-section">
+               <h3>© 2016-2025 web designer. All rights reserved  |  Purchase</h3>
+              </div>
+            </div>
+          </footer>
+          <!-- styling -->
+          <style>
+            
+.contact-section {
+    margin: 10% auto ;
+  padding: 60px 5%;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Left side: Map */
+.l-side {
+  flex: 1;
+  min-width: 300px;
+  height: 400px;
+}
+
+/* Right side: Form */
+.r-side {
+  flex: 1;
+  min-width: 300px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #FF6B00;
+}
+
+/* Submit Button */
+.form-btn {
+  background-color: #FF6B00;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-btn:hover {
+  background-color: #e85a00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .l-side,
+  .r-side {
+    width: 100%;
+    height: auto;
+  }
+}
+
+          </style>
+       
+        
+</body>
+</html>
